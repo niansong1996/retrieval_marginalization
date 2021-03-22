@@ -1,2 +1,1 @@
-# retrieval_marginalization
-Retrieval Marginalization for Multi-Document QA (To Sync)
+# Retrieval Marginalization for Multi-Document QA (To Sync)
