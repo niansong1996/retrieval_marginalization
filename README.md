@@ -1,5 +1,5 @@
 # Mitigating False-Negative Contexts in Multi-Document Question Answering with Retrieval Marginalization
-Authors: [Ansong Ni](https://niansong1996.github.io/), [Matt Gardner](https://matt-gardner.github.io/) and Pradeep Dasigi(https://pdasigi.github.io/)
+Authors: [Ansong Ni](https://niansong1996.github.io/), [Matt Gardner](https://matt-gardner.github.io/) and [Pradeep Dasigi](https://pdasigi.github.io/)
 
 ## Full Model Outputs for IIRC
 We include the full model outputs on the validation and test set for IIRC in `joint_retrieval_results`. If you wish to use another QA model to improve over our performance, feel free to use the predicted links or retrieved contexts by our model. The `jsonl` file is organized as follows:
@@ -43,22 +43,5 @@ If you use our code or model outputs, please cite:
     url = "https://aclanthology.org/2021.emnlp-main.497",
     doi = "10.18653/v1/2021.emnlp-main.497",
     pages = "6149--6161",
-}
-
-@inproceedings{ferguson-etal-2020-iirc,
-    title = "{IIRC}: A Dataset of Incomplete Information Reading Comprehension Questions",
-    author = "Ferguson, James  and
-      Gardner, Matt  and
-      Hajishirzi, Hannaneh  and
-      Khot, Tushar  and
-      Dasigi, Pradeep",
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    month = nov,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2020.emnlp-main.86",
-    doi = "10.18653/v1/2020.emnlp-main.86",
-    pages = "1137--1147",
 }
 ```
